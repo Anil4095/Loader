@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+.main-div { 
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top:0;
+
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+    background-color: black;
+    
+
+}
+.li-item{
+   color:white;
+   padding-top: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   text-decoration: none;
+
+}
+.login-div{
+  height: auto;
+  width: 20%;
+  margin-top: 80px;
+  align-items: center;
+  /* margin-left: 38%; */
+  background-color:rgb(95, 92, 92);
+  border-radius:10px;
+  
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+
+.login-div input{
+   padding-left: 30px;
+    height: 35px;
+      width: 90%;
+      border-radius: 10px;
+      background-color: white;
+      align-items: center;
+      justify-content: center;
+  
+}
+.login-div .inp-fill{
+  margin-top: 30px;
+  padding-left: 10%;
+}
+.btn-div{
+
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(14, 13, 13);
+
+}
+
+  .scroll-to-top {
+    float: right;
+    right: 2rem;
+    bottom: 2rem;
+    display: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    text-align: center;
+    color: #fff;
+    background: rgba(5, 25, 160, 0.5);
+    line-height: 46px;
+    border-radius: 50px;
+    
+  }
+  .button-div{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    height:20px;
+    width: 30px;
+    padding-top: 13px;
+    padding-left: 10px;
+
+  }
+    
